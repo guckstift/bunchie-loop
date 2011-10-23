@@ -1,0 +1,35 @@
+
+This program plays the colored bunchie gif animation with the music track "Brazilian Flower" by
+"Jean-Jacques Perrey" in the background. The whole thing is infinitely looped.
+
+This program serves a higher purpose: If you feel stressed or under pressure, then start this
+animation program and keep in mind, how stupid we humans are!
+
+For me it works well.
+
+Requirements
+============
+
+* Python 2.x
+* Pygame
+* A sense of humor
+
+How to use
+==========
+
+Just launch with:
+
+$ python bunchie-loop.py
+
+Credits
+=======
+
+Thanks to the uploader of this video:
+
+ * http://www.youtube.com/watch?v=tTjr_oCo6uU
+ 
+and the uploader of this:
+
+ * http://www.youtube.com/watch?v=OZBWfyYtYQY
+
+thanks for that inspiration, but 10h is to less.
