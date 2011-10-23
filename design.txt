@@ -1,0 +1,55 @@
+
+bunchie-loop
+============
+
+It plays the colored bunchie animated gif with the music title "Brazilian Flower" by
+"Jean-Jacques Perrey" in the background. The whole thing is infinitely looped.
+
+- bunchie animation available as animated gif "bunchie_color.gif" from [1]
+- music shall be looped like in [2]
+- music available via torrents
+- written in python
+- uses pygame for visualization und playback
+
+Resources
+=========
+
+pygame documentation [3]
+
+Pre Testings
+============
+
+1. Show a window with pygame, destroyed with "cross" or alt+f4 
+	... done!
+2. Show a still picture in the window (png format)
+	... done!
+3. Try to load gif animation with PIL (Python Imaging Library) [4] then save single frames as new.
+	... failed! PIL sucks extracting gif frames!
+4. Try playing music as ogg vorbis in background with pygame.mixer.music, and loop it.
+	... done!
+	but: quality seems to be truncated and not enough flexibilities to loop the music in several
+	parts
+5. Try playing music as ogg vorbis in background with pygame.mixer, and loop it.
+	... done! works good. but quality still not the optimal
+
+Putting it all together
+=======================
+
+animate single extracted frames as png from the gif. 60ms frame duration. play brazilian flower in
+background
+
+Further improvement
+====================
+
+* bunchie scaled to window size, but not stretched
+* double buffered
+
+* pre-create scaled bunchie frames
+* set window label
+
+===
+
+[1] http://myanimelist.net/clubs.php?cid=9712
+[2] http://www.youtube.com/watch?v=OZBWfyYtYQY
+[3] http://www.pygame.org/docs/
+[4] http://www.pythonware.com/products/pil/
